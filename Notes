@@ -1,0 +1,40 @@
+Plant Disease Detection Using Deep Learning (MobileNetV2 Model)
+
+Dataset Used: PlantVillage (Kaggle)
+
+Developed a deep learning-based system to automatically detect plant diseases from leaf images using the PlantVillage dataset. 
+Implemented and trained CNN models to classify multiple disease categories with high accuracy, improving early detection and supporting smart agriculture solutions.
+
+Collected, preprocessed, and augmented PlantVillage leaf images to build a high-quality training dataset for disease classification.
+
+Designed and trained a Convolutional Neural Network (CNN) model to detect plant leaf diseases, achieving 94%+ accuracy.
+
+Applied techniques such as normalization, data augmentation, and hyperparameter tuning to enhance model performance.
+
+Evaluated the model using confusion matrix, classification report, and accuracy metrics to ensure reliability.
+
+Built a prediction pipeline to classify new leaf images and visualize outputs for real-time disease detection.
+
+Documented model performance, experiment results, and training workflows for reproducibility.
+
+Tech Stack - Python, TensorFlow / Keras, OpenCV, NumPy, Matplotlib / Seaborn
+
+Model Workflow
+
+Load and preprocess images
+
+Apply augmentation (flip, rotation, zoom, etc.)
+
+Build & train CNN model
+
+Validate and evaluate performance
+
+Visualize accuracy/loss curves
+
+Predict on custom input images
+
+Achieved 94%+ accuracy on validation set
+
+Clear class separation as shown in confusion matrix
+
+Robust predictions on real test images
